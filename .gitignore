@@ -3,6 +3,9 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+.gradle
+.idea
+allure-results
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -40,3 +43,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+allure-results/
+gradlew.bat
+gradlew
+gradle-wrapper.properties
+gradle-wrapper.jar
+gradle\
