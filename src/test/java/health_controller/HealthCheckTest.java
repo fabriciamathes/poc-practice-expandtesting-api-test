@@ -1,6 +1,6 @@
 package health_controller;
 
-import com.practice.expandtesting.client.health_controller.BaseInicial;
+import com.practice.expandtesting.client.BaseInicial;
 import org.testng.annotations.Test;
 
 import static com.practice.expandtesting.contants.endpoints.MenssagesConstants.SERVER_RUNNING;
