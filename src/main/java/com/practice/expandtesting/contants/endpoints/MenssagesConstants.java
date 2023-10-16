@@ -10,6 +10,7 @@ public class MenssagesConstants {
     public static final String INCORRECT_EMAIL_PASSWORD = "Incorrect email address or password";
     public static final String SUCCESS_CREAT_USERNAME = "User account created successfully";
     public static final String SUCCESS_DELETE = "Account successfully deleted";
+    public static final String SUCCESS_PROFILE = "Profile successful";
 
     public static final String SERVER_RUNNING = "Notes API is Running";
 }
