@@ -19,6 +19,10 @@ public class RegisterUsersFactory {
         return builRegisterUsers("Lindinha Testes", "teste@tas.com", "teste123");
     }
 
+    public static RegisterUsersDTO registerValidUserProfile() {
+        return builRegisterUsers("Luluzinha Testes", "lulu@tas.com", "teste123");
+    }
+
     public static RegisterUsersDTO invalidUser() {
         return builRegisterUsers("Tes", "tas@teste.com", "teste123");
     }

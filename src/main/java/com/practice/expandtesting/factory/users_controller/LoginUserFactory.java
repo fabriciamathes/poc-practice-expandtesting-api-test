@@ -12,6 +12,6 @@ public class LoginUserFactory {
     }
 
     public static LoginUsersDTO addLoginUser() {
-        return buildLoginUsers("teste@tas.com", "teste123");
+        return buildLoginUsers("lulu@tas.com", "teste123");
     }
 }
