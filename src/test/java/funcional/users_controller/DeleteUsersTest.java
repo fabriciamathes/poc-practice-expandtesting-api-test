@@ -1,4 +1,4 @@
-package users_controller;
+package funcional.users_controller;
 
 import com.practice.expandtesting.client.BaseInicial;
 import org.testng.annotations.Test;
