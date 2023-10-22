@@ -6,9 +6,11 @@ import com.practice.expandtesting.client.users_controller.LoginUsersClient;
 import com.practice.expandtesting.client.users_controller.ProfileUsersClient;
 import com.practice.expandtesting.client.users_controller.RegisterUsersClient;
 import io.restassured.specification.RequestSpecification;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 
 import static com.practice.expandtesting.spec.ServerSpecification.getRequestSpecification;
-
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class BaseInicial {
 
     protected static final RequestSpecification spec = getRequestSpecification();

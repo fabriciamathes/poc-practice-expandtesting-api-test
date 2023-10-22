@@ -4,6 +4,8 @@ import com.practice.expandtesting.dto.users_controller.LoginUsersDTO;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
+import static com.practice.expandtesting.constants.auth.LoginConstants.*;
+
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class LoginUserFactory {
     public static LoginUsersDTO buildLoginUsers(String email, String password) {
@@ -13,8 +15,13 @@ public class LoginUserFactory {
                 .password(password)
                 .build();
     }
-
-    public static LoginUsersDTO addLoginUser() {
-        return buildLoginUsers("lulu@tas.com", "teste123");
+    public static LoginUsersDTO buildAddLoginUser() {
+        return buildLoginUsers(EMAIL_TAS, PASSWORD);
+    }
+    public static LoginUsersDTO buildAddLoginUserTeste() {
+        return buildLoginUsers(EMAIL_TESTE, PASSWORD);
+    }
+    public static LoginUsersDTO buildAddLoginUserLulu() {
+        return buildLoginUsers(EMAIL_LULU, PASSWORD);
     }
 }

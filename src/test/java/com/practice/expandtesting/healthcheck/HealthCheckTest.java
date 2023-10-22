@@ -1,4 +1,4 @@
-package healthcheck;
+package com.practice.expandtesting.healthcheck;
 
 import com.practice.expandtesting.client.BaseInicial;
 import org.testng.annotations.Test;
