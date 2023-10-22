@@ -3,8 +3,8 @@ package com.practice.expandtesting.client.users_controller;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
-import static com.practice.expandtesting.contants.endpoints.EndpointsConstants.ENDPOINT_DELETE;
-import static com.practice.expandtesting.contants.endpoints.EndpointsConstants.ENDPOINT_USERS;
+import static com.practice.expandtesting.constants.endpoints.EndpointsConstants.ENDPOINT_DELETE;
+import static com.practice.expandtesting.constants.endpoints.EndpointsConstants.ENDPOINT_USERS;
 import static io.restassured.RestAssured.given;
 
 public class DeleteAccountUsersClient {

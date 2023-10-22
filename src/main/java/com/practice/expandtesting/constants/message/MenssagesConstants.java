@@ -1,4 +1,4 @@
-package com.practice.expandtesting.contants.endpoints;
+package com.practice.expandtesting.constants.message;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
