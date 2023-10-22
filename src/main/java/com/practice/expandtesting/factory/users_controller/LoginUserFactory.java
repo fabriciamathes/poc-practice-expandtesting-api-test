@@ -16,6 +16,7 @@ public class LoginUserFactory {
                 .build();
     }
     public static LoginUsersDTO buildAddLoginUser() {
+
         return buildLoginUsers(EMAIL_TAS, PASSWORD);
     }
     public static LoginUsersDTO buildAddLoginUserTeste() {
@@ -23,5 +24,9 @@ public class LoginUserFactory {
     }
     public static LoginUsersDTO buildAddLoginUserLulu() {
         return buildLoginUsers(EMAIL_LULU, PASSWORD);
+    }
+
+    public static LoginUsersDTO buildAddLoginUserTesteContract() {
+        return buildLoginUsers(EMAIL_MESTRE, PASSWORD);
     }
 }
