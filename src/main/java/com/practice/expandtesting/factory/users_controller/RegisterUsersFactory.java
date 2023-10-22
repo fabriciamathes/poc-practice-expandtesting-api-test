@@ -21,6 +21,10 @@ public class RegisterUsersFactory {
         return buildRegisterUsers("Lindinha Testes", EMAIL_TESTE, PASSWORD);
     }
 
+    public static RegisterUsersDTO buildRegisterValidUserContract() {
+        return buildRegisterUsers("Metre Testes", EMAIL_MESTRE, PASSWORD);
+    }
+
     public static RegisterUsersDTO buildRegisterValidUserProfile() {
         return buildRegisterUsers("Luluzinha Testes", EMAIL_LULU, PASSWORD);
     }
