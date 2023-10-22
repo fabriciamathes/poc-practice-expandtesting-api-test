@@ -9,7 +9,7 @@ import io.restassured.specification.RequestSpecification;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
-import static com.practice.expandtesting.contants.endpoints.EndpointsConstants.BASE_URL;
+import static com.practice.expandtesting.constants.endpoints.EndpointsConstants.BASE_URL;
 import static io.restassured.config.LogConfig.logConfig;
 import static io.restassured.filter.log.LogDetail.ALL;
 import static io.restassured.http.ContentType.JSON;

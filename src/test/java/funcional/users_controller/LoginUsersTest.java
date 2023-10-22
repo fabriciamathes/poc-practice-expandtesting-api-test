@@ -3,7 +3,7 @@ package funcional.users_controller;
 import com.practice.expandtesting.client.BaseInicial;
 import org.testng.annotations.Test;
 
-import static com.practice.expandtesting.contants.endpoints.MenssagesConstants.INCORRECT_EMAIL_PASSWORD;
+import static com.practice.expandtesting.constants.message.MenssagesConstants.INCORRECT_EMAIL_PASSWORD;
 import static com.practice.expandtesting.factory.users_controller.LoginUserFactory.addLoginUser;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 import static org.hamcrest.CoreMatchers.is;

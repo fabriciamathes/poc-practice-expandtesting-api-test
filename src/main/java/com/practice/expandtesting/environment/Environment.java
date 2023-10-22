@@ -3,7 +3,7 @@ package com.practice.expandtesting.environment;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
-import static com.practice.expandtesting.contants.endpoints.EndpointsConstants.TST;
+import static com.practice.expandtesting.constants.endpoints.EndpointsConstants.TST;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class Environment {

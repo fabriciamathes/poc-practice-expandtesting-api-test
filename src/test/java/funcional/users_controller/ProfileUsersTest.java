@@ -4,7 +4,7 @@ import com.practice.expandtesting.client.BaseInicial;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-import static com.practice.expandtesting.contants.endpoints.MenssagesConstants.*;
+import static com.practice.expandtesting.constants.message.MenssagesConstants.*;
 import static com.practice.expandtesting.factory.users_controller.LoginUserFactory.addLoginUser;
 import static com.practice.expandtesting.factory.users_controller.RegisterUsersFactory.registerValidUserProfile;
 import static org.apache.http.HttpStatus.SC_CREATED;
