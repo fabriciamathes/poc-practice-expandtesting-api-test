@@ -1,10 +1,10 @@
-package funcional.users_controller;
+package com.practice.expandtesting.funcional.users_controller;
 
 import com.practice.expandtesting.client.BaseInicial;
 import org.testng.annotations.Test;
 
 import static com.practice.expandtesting.constants.message.MenssagesConstants.INVALID_ACCESS_TOKEN;
-import static com.practice.expandtesting.constants.auth.TokenConstants.INCORRECT_TOKEN;
+import static com.practice.expandtesting.constants.auth.LoginConstants.INCORRECT_TOKEN;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 import static org.hamcrest.CoreMatchers.is;
 
